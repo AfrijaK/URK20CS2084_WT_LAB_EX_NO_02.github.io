@@ -1,0 +1,159 @@
+<!--
+    WT LAB EX NO 02
+    URK20CS2084 
+    WORKING WITH HTML5 FORM AND MEDIA ELEMENTS
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Page_2_URK20CS2084
+        </title>
+        <meta charset="utf-8">
+        <meta http-equiv="refresh" content="10">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keyword" content="Resume, HTML">
+        <style>
+            .address{
+                width: 210px;
+                height: 50px;
+            }
+            table{
+                border-collapse:collapse;
+            }
+            .submit{
+                text-align: center;  
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Submit Your Resume</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <br><br>*First Name: <input type="text" name="fname" placeholder="Enter your first name...">
+                <br><br>*Middle Name: <input type="text" name="mname" placeholder="Enter your middle name...">
+                <br><br>*Last Name: <input type="text" name="lname" placeholder="Enter your last name...">
+                <br><br>Date of Birth: <input type="date" name="dob">
+                <br><br>Age in years: <input type="number" value="age" min="18" max="30">
+                <br><br>Gender: <input type="radio" name="Gen" value="1">Male</input>
+                <input type="radio" name="Gen" value="2">Female</input>
+            </fieldset>
+            <br><input type="range" min="0" max="100" value="20">20% out of 100%
+            <br><fieldset>
+                <legend>Address Details</legend>
+                <br><br>Address: <input type="text" class="address" placeholder="Enter your address">
+                <br><br>City/Town: <input type="text" name="city" placeholder="Enter your city/town...">
+                <br><br>State: <input type="text" name="mname" placeholder="Enter your state...">
+                <br><br>Age in years: <input type="number" value="zip">
+            </fieldset>
+            <br><input type="range" min="0" max="100" value="40">40% out of 100%
+            <br><fieldset>
+                <legend>Contact information</legend>
+                <br><br>Telephone: <input type="text" class="tele" placeholder="(044) 999-9999">
+                <br><br>Mobile: <input type="tel" name="mob" placeholder="(+91)99999-99999">
+                <br><br>Email: <input type="email" name="mail" placeholder="Valid Email">
+                <br><br>Website: <input type="url" placeholder="Valid url">
+            </fieldset>
+            <br><input type="range" min="0" max="100" value="60">60% out of 100%
+            <br><fieldset>
+                <legend>Address Details</legend>
+                <br><br>Address: <input type="text" class="address" placeholder="Enter your address...">
+                <br><br>City/Town: <input type="text" name="city" placeholder="Enter your city/town...">
+                <br><br>State: <input type="text" name="mname" placeholder="Enter your state...">
+                <br><br>Zip Code: <input type="number" value="zip">
+            </fieldset>
+            <br><input type="range" min="0" max="100" value="80">80% out of 100%
+            <br><fieldset>
+                <legend>
+                    Educational Details
+                </legend>
+                <table border="1">
+                    <tr>
+                        <form action="one.html">
+                            <th>Qualification</th>
+                            <th>Board/University</th>
+                            <th>Country</th>
+                            <th>Starting Year</th>
+                            <th>Ending Year</th>
+                            <th>Percentage</th>
+                        </form>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><input type="checkbox" name="10">10th</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><select name="country">
+                                <option value="" hidden>Choose</option>
+                                <option value="India">India</option>
+                                <option value="Usa">USA</option>
+                                <option value="uk">UK</option>
+                            </select></td>
+                            <td><input type="date" name="sd"></td>
+                            <td><input type="date" name="ed"></td>
+                            <td><input type="number" name="per" min="0" max="100"></td>
+                        </form>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><input type="checkbox" name="12">12th</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><select name="country">
+                                <option value="" hidden>Choose</option>
+                                <option value="India">India</option>
+                                <option value="Usa">USA</option>
+                                <option value="uk">UK</option>
+                            </select></td>
+                            <td><input type="date" name="sd"></td>
+                            <td><input type="date" name="ed"></td>
+                            <td><input type="number" name="per" min="0" max="100"></td>
+                        </form>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><input type="checkbox" name="ug">B.Tech</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><select name="country">
+                                <option value="" hidden>Choose</option>
+                                <option value="India">India</option>
+                                <option value="Usa">USA</option>
+                                <option value="uk">UK</option>
+                            </select></td>
+                            <td><input type="date" name="sd"></td>
+                            <td><input type="date" name="ed"></td>
+                            <td><input type="number" name="per" min="0" max="100"></td>
+                        </form>
+                    </tr>
+                    <tr>
+                        <form>
+                            <td><input type="checkbox" name="pg">M.Tech</td>
+                            <td><input type="text" placeholder="Board/University"></td>
+                            <td><select name="country">
+                                <option value="" hidden>Choose</option>
+                                <option value="India">India</option>
+                                <option value="Usa">USA</option>
+                                <option value="uk">UK</option>
+                            </select></td>
+                            <td><input type="date" name="sd"></td>
+                            <td><input type="date" name="ed"></td>
+                            <td><input type="number" name="per" min="0" max="100"></td>
+                        </form>
+                    </tr>
+                </table>
+            </fieldset>
+            <br><input type="range" min="0" max="100" value="80">
+            <br><fieldset>
+                Attach your resume in .doc or .pdf format 
+                <input type="file" id="myfile" name="myfiel">
+                <br><br>
+                <input type="checkbox" name="agree">I filled all details
+            </fieldset>
+            <br><input type="range" min="0" max="100" value="100">100% out of 100%
+            <br><br>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+</html>
